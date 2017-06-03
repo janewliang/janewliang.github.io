@@ -1,4 +1,5 @@
 name: Jane Liang
 theme: jekyll-theme-minimal
+permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap
