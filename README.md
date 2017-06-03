@@ -1,1 +1,1 @@
-This is a placeholder and terrible description. 
+Source code for Jane Liang's personal website: https://janewliang.github.io
