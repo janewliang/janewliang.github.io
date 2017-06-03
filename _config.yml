@@ -1,2 +1,4 @@
 name: Jane Liang
 theme: jekyll-theme-minimal
+gems:
+  - jekyll-sitemap
