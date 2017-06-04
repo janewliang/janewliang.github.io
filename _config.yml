@@ -1,4 +1,6 @@
 name: Jane Liang
+title: Jane Liang
+description: Doctoral student at Harvard Biostatistics
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
 gems:
