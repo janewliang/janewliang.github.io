@@ -3,6 +3,6 @@ layout: default
 title: Jane Liang
 ---
 
-# I'm Jane Liang's website!</h1>
+# I'm Jane Liang's website!
 
 Here is some text.
