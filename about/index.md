@@ -17,4 +17,4 @@ Born and rasied in the San Francisco Bay Area, I received my bachelor's degree i
 [Bitbucket](https://bitbucket.org/jwliang)  
 [LinkedIn](https://www.linkedin.com/in/jane-liang-40975691)  
 
-Interested in Lepidoptera? My brothers, undergraduates at Cornell, run a pretty cool [site](http://www.lianginsects.com). 
+Interested in Lepidoptera? My brothers run a pretty cool [site](http://www.lianginsects.com). 

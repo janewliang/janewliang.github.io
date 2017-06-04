@@ -12,3 +12,23 @@ a:hover, a:focus {
   color:#22a458;
   font-weight: bold;
 }
+
+
+a.svg {
+  position: relative;
+  display: inline-block; 
+}
+a.svg:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
+<a href="#" class="svg">
+  <object data="random.svg" type="image/svg+xml">
+    <img src="random.jpg" />
+  </object>
+</a>
