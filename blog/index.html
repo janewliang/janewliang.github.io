@@ -8,8 +8,7 @@ title: Weblog
 
   {% for post in site.posts %}
     <li>
-	<h4><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
-	<br>
+	<h4 style="margin-bottom:0px;"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
 	<span>&ensp; {{ post.content | markdownify | strip_html | truncatewords: 50 }}</span>
 	</li>
   {% endfor %}
