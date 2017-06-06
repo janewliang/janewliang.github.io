@@ -9,7 +9,7 @@ title: Weblog
   {% for post in site.posts %}
     <li>
 	<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-	{{ post.content | markdownify | strip_html | truncatewords: 50 }} 
+	<span>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</span>
 	</li>
   {% endfor %}
     
