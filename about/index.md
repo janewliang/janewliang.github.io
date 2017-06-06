@@ -9,7 +9,7 @@ I am a first-year doctoral student at the Harvard T.H. Chan School of Public Hea
 
 Prior to entering graduate school, I was a scientific programmer at the University of Tennessee Health Science Center, Department of Preventive Medicine, [Division of Biostatistics](https://www.uthsc.edu/prevmed/biostatistics/index.php). I worked under [Dr. &#346;aunak Sen](http://senresearch.org) on matrix linear models for structured high-throughput data. Before that, I was a programming analysis associate at [Kaiser Permanente](https://healthy.kaiserpermanente.org). 
 
-Born and rasied in the San Francisco Bay Area, I received my bachelor's degree in statistics from [UC Berkeley](http://statistics.berkeley.edu). In my spare time, I enjoy reading books, consuming hot beverages, and being easily amused by indifferent animals. 
+Born and rasied in the San Francisco Bay Area, I received my bachelor's degree in statistics from [UC Berkeley](http://statistics.berkeley.edu). In my spare time, I read books, consume hot beverages, and am easily amused by indifferent animals. 
 
 ---
 
