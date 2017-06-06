@@ -8,9 +8,9 @@ title: Weblog
 
   {% for post in site.posts %}
     <li>
-	<span><i>{{ post.date | date_to_long_string }}</i></span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}" style="font-size:larger" >{{ post.title }}</a>
+	<span><i>{{ post.date | date_to_long_string }}</i></span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a>
 	<br>
-	<span>&ensp; {{ post.content | markdownify | strip_html | truncatewords: 50 }}</span>
+	<span style="font-size:smaller">&ensp; {{ post.content | markdownify | strip_html | truncatewords: 50 }}</span>
 	</li>
   {% endfor %}
     
