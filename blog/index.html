@@ -3,12 +3,12 @@ layout: default
 title: Weblog
 ---
 
-<h2><a href="{{ page.url }}" style="color:inherit" title="{{ page.title }}">{{ page.title }}</a></h2>
+<h2><a href="{{ page.url }}" style="color:inherit">{{ page.title }}</a></h2>
 <ul class="posts" style="list-style: none;">
 
   {% for post in site.posts %}
     <li>
-	<span><i>{{ post.date | date_to_long_string }}</i></span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a>
+	<span><i>{{ post.date | date_to_long_string }}</i></span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
 	<br>
 	<span style="font-size:smaller">&ensp; {{ post.content | markdownify | strip_html | truncatewords: 50 }}</span>
 	</li>
