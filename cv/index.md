@@ -3,7 +3,7 @@ layout: default
 title: Curriculum Vitae
 ---
 
-# {{ page.title }}
+<h1><a href="{{ page.url }}" title="{{ page.title }}" style="color:inherit">{{ page.title }}</a></h1>
 
 (Updated June 13, 2017)
 
