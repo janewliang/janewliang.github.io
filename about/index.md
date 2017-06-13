@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-<h1><a href="{{ page.url }}" title="{{ page.title }}" style="color:inherit">{{ page.title }}</a></h1>
+<h2><a href="{{ page.url }}" title="{{ page.title }}" style="color:inherit">{{ page.title }}</a></h2>
 
 I am a scientific programmer at the University of Tennessee Health Science Center, Department of Preventive Medicine, [Division of Biostatistics](https://www.uthsc.edu/prevmed/biostatistics/index.php). Under the supervision of [Dr. &#346;aunak Sen](http://senresearch.org), I work on matrix linear models for structured high-throughput data. Before that, I was a programming analysis associate at [Kaiser Permanente](https://healthy.kaiserpermanente.org). 
 
