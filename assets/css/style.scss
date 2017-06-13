@@ -14,13 +14,14 @@ $header-font: 'Philosopher', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sa
 body {
   font-family: $body-font;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
-  font-weight: normal;
+  font-weight: 400;
 }
 
+// Header sizes based on Fibonacci sequence
 h1 {
   font-size: 32px;
 }
