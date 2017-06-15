@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: About
 ---
 
 <h2><a href="{{ page.url }}" style="color:inherit">{{ page.title }}</a></h2>
