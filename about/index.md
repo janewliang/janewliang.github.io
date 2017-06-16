@@ -11,4 +11,4 @@ I was born, rasied, and educated in the San Francisco Bay Area, where I received
 
 ---
 
-Interested in Lepidoptera or other insects? My brothers run a pretty cool [website](http://www.lianginsects.com). 
+Interested in Lepidoptera or other insects? My brothers run a pretty cool [website](http://www.lianginsects.com) for their projects. 
