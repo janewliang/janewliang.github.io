@@ -5,6 +5,6 @@ title: Curriculum Vitae
 
 <h2><a href="{{ page.url }}" style="color:inherit">{{ page.title }}</a></h2>
 
-(Updated June 13, 2017)
+(Updated August 10, 2017)
 
 [Download PDF]({{ site.url }}/media/cv-online.pdf)
