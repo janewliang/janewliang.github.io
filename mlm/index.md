@@ -19,11 +19,9 @@ I applied the least squares approach to <i>E. coli</i> genetic screening data an
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, Jane W.</b>, Robert J. Nichols, and Śaunak Sen. "Matrix linear models for high-throughput chemical genetic screens." Genetics (2019): genetics-302299, <a href="https://doi.org/10.1534/genetics.119.302299">https://doi.org/10.1534/genetics.119.302299</a>.</p>
 
-<ul style="list-style-type:none;">
-    <li><a href="https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/">Supplemental code</a>: Code used to analyze the results and reproduce the figures in the paper.</li>
-    <li><a href="https://github.com/janewliang/matrixLM.jl">matrixLM.jl</a> package: Core functions to obtain closed-form least squares estimates for matrix linear models.</li>
-    <li><a href="https://github.com/janewliang/GeneticScreen.jl">GeneticScreen.jl</a> package: An extension of matrixLM.jl that provides pre- and post-processing for the analysis of high-throughput genetic screens using matrix linear models.</li>
-</ul>
+<a href="https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/">Supplemental code</a>: Code used to analyze the results and reproduce the figures in the paper.
+<a href="https://github.com/janewliang/matrixLM.jl">matrixLM.jl</a> package: Core functions to obtain closed-form least squares estimates for matrix linear models.
+<a href="https://github.com/janewliang/GeneticScreen.jl">GeneticScreen.jl</a> package: An extension of matrixLM.jl that provides pre- and post-processing for the analysis of high-throughput genetic screens using matrix linear models.
 
 ---
 
@@ -33,8 +31,6 @@ Standard methods for estimation of these penalized regression models fail if the
 
 <p style="margin-left: 20px; text-indent: -20px;"><a href="https://arxiv.org/abs/1712.05767">https://arxiv.org/abs/1712.05767</a> </p>
 
-<ul style="list-style-type:none;">
-    <li><a href="https://bitbucket.org/jwliang/mlm_l1_supplement/src/default/">Supplemental code</a>: Code used to analyze the results and reproduce the figures in the paper.</li>
-    <li><a href="https://github.com/janewliang/matrixLMnet.jl">matrixLMnet.jl</a> package: Core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.</li>
-    <li><a href="https://www.youtube.com/watch?v=LbWMmxMiZFQ">Lightning talk</a>: The video recording of a talk I gave at <a href="https://juliacon.org/2017/">JuliaCon 2017</a> in Berkeley, CA.</li>
-</ul>
+<a href="https://bitbucket.org/jwliang/mlm_l1_supplement/src/default/">Supplemental code</a>: Code used to analyze the results and reproduce the figures in the paper.
+<a href="https://github.com/janewliang/matrixLMnet.jl">matrixLMnet.jl</a> package: Core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.
+<a href="https://www.youtube.com/watch?v=LbWMmxMiZFQ">Lightning talk</a>: The video recording of a talk I gave at <a href="https://juliacon.org/2017/">JuliaCon 2017</a> in Berkeley, CA.
