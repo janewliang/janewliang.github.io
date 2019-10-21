@@ -15,7 +15,7 @@ We implemented our methods using the high-level programming language [Julia](htt
 
 ---
 
-<h3><a name="genetic">Matrix linear models for high-throughput chemical genetic screens</a></h3>
+<h3><a name="genetic">Matrix linear models for genetic screens</a></h3>
 
 We develop a matrix linear model framework that allows us to model relationships between mutants and conditions in a simple, yet flexible, multivariate framework. It encodes both categorical and continuous relationships to enhance detection of associations. Our closed-form least squares estimates are fast because they take advantage of the structure of matrix linear models. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen, comparing it with an existing univariate approach based on modified t-tests. We show that MLMs perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. Therefore, it is an attractive alternative to current methods, and provides a computationally scalable framework for larger and complex chemical genetic screens. 
 
@@ -27,7 +27,7 @@ We develop a matrix linear model framework that allows us to model relationships
 
 ---
 
-<h3><a name="sparse">Sparse matrix linear models for structured high-throughput data</a></h3>
+<h3><a name="sparse">Sparse matrix linear models</a></h3>
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses. 
 
