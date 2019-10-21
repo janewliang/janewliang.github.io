@@ -15,7 +15,7 @@ We implemented our methods using the high-level programming language [Julia](htt
 
 ---
 
-<h3><div name="genetic">Matrix linear models for genetic screens</div></h3>
+<h3><a name="genetic">Matrix linear models for genetic screens</a></h3>
 
 We develop a matrix linear model framework that allows us to model relationships between mutants and conditions in a simple, yet flexible, multivariate framework. It encodes both categorical and continuous relationships to enhance detection of associations. Our closed-form least squares estimates are fast because they take advantage of the structure of matrix linear models. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen, comparing it with an existing univariate approach based on modified t-tests. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. Therefore, it is an attractive alternative to current methods, and provides a computationally scalable framework for larger and complex chemical genetic screens. 
 
@@ -24,3 +24,22 @@ We develop a matrix linear model framework that allows us to model relationships
 [Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.
 <br>[matrixLM.jl](https://github.com/janewliang/matrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.
 <br>[GeneticScreen.jl](https://github.com/janewliang/GeneticScreen.jl): Julia package that extends matrixLM.jl to provide pre- and post-processing for the analysis of high-throughput genetic screens using matrix linear models.
+
+---
+
+<h3><a name="sparse">Sparse matrix linear models</a></h3>
+
+We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses. 
+
+<p style="margin-left: 20px; text-indent: -20px;"><a href="https://arxiv.org/abs/1712.05767">arxiv.org/abs/1712.05767</a></p>
+
+[Supplemental code](https://bitbucket.org/jwliang/mlm_l1_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.
+<br>[matrixLMnet.jl](https://github.com/janewliang/matrixLMnet.jl): Julia package with core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.
+<br>[Lightning talk](https://www.youtube.com/watch?v=LbWMmxMiZFQ): Video recording of a talk I gave at [JuliaCon 2017](https://juliacon.org/2017/) in Berkeley, CA.
+
+---
+
+<h3><a name="ref">References</a></h3>
+
+<p style="margin-left: 20px; text-indent: -20px;">
+</p>
