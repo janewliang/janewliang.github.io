@@ -7,4 +7,4 @@ title: Curriculum Vitae
 
 [Download CV as a PDF]({{ site.url }}/media/cv-online.pdf)
 
-<i>Updated July 22, 2019</i>
+*Updated July 22, 2019*
