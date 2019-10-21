@@ -61,6 +61,7 @@ a.svg {
  position: relative;
  display: inline-block;
  width: 10%;
+ max-width:10px;
 }
 a.svg:after {
   content: ""; 
