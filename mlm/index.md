@@ -19,7 +19,7 @@ We implemented our methods using the high-level programming language [Julia](htt
 
 I applied the least squares approach to *E. coli* genetic screening data and demonstrated its superior speed and flexibility over an existing method.
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, Jane W.</b>, Robert J. Nichols, and Śaunak Sen. "Matrix linear models for high-throughput chemical genetic screens." Genetics (2019): genetics-302299, [doi.org/10.1534/genetics.119.302299](https://doi.org/10.1534/genetics.119.302299).</p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, Jane W.</b>, Robert J. Nichols, and Śaunak Sen. "Matrix linear models for high-throughput chemical genetic screens." Genetics (2019): genetics-302299, <a href="https://doi.org/10.1534/genetics.119.302299">doi.org/10.1534/genetics.119.302299</a>.</p>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.
 <br>[matrixLM.jl](https://github.com/janewliang/matrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.
@@ -31,7 +31,7 @@ I applied the least squares approach to *E. coli* genetic screening data and dem
 
 Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem. All three fast algorithms (coordinate descent, FISTA, and ADMM) used to obtain sparse solutions are implemented in an open-source Julia package. Our method's performance was evaluated on simulated data based on an environmental screening study and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses. 
 
-<p style="margin-left: 20px; text-indent: -20px;">[arxiv.org/abs/1712.05767](https://arxiv.org/abs/1712.05767)</p>
+<p style="margin-left: 20px; text-indent: -20px;"><a href="https://arxiv.org/abs/1712.05767">arxiv.org/abs/1712.05767</a></p>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_l1_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.
 <br>[matrixLMnet.jl](https://github.com/janewliang/matrixLMnet.jl): Julia package with core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.
