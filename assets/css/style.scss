@@ -6,6 +6,11 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700|Arsenal:400,700');
 
+// Adjust width of body
+.inner {
+  max-width: 75%;
+}
+
 // Set variables for body and header fonts
 $body-font: 'Lato', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  
 $header-font: 'Arsenal', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
