@@ -6,6 +6,13 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700|Arsenal:400,700');
 
+// Section (main part that's not the header or footer)
+section {
+  width:600px;
+  float:right;
+  padding-bottom:50px;
+}
+
 // Set variables for body and header fonts
 $body-font: 'Lato', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  
 $header-font: 'Arsenal', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -61,7 +68,7 @@ a.svg {
  position: relative;
  display: inline-block;
  width: 10%;
- max-width:30px;
+ max-width:25px;
 }
 a.svg:after {
   content: ""; 
