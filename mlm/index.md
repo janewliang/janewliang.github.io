@@ -35,9 +35,7 @@ We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and co
 
 ---
 
-<sub>
-
-[^fn1]: Ågren, J., Oakley, C. G., McKay, J. K., Lovell, J. T., & Schemske, D. W. (2013). Genetic mapping of adaptation reveals fitness tradeoffs in Arabidopsis thaliana. *Proceedings of the National Academy of Sciences*, 110(52), 21077-21082.
+<sub>[^fn1]: Ågren, J., Oakley, C. G., McKay, J. K., Lovell, J. T., & Schemske, D. W. (2013). Genetic mapping of adaptation reveals fitness tradeoffs in Arabidopsis thaliana. *Proceedings of the National Academy of Sciences*, 110(52), 21077-21082.</sub?
 
 [^fn2]: Collins, S. R., Schuldiner, M., Krogan, N. J., and Weissman, J. S. (2006). A strategy for extracting and analyzing large-scale quantitative epistatic interaction data. *Genome biology*, 7(7):R63. 
 
@@ -45,6 +43,4 @@ We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and co
 
 [^fn4]: Nichols, R. J., Sen, S., Choo, Y. J., Beltrao, P., Zietek, M., Chaba, R., Lee, S., Kazmierczak, K. M., Lee, K. J., Wong, A., et al. (2011). Phenotypic landscape of a bacterial cell. *Cell*, 144(1):143–156. 
 
-[^fn5]: Woodruff, T. J., Zota, A. R., & Schwartz, J. M. (2011). Environmental chemicals in pregnant women in the United States: NHANES 2003–2004. *Environmental health perspectives*, 119(6), 878-885.
-
-</sub>
+[^fn5]: Woodruff, T. J., Zota, A. R., & Schwartz, J. M. (2011). Environmental chemicals in pregnant women in the United States: NHANES 2003–2004. *Environmental health perspectives*, 119(6), 878-885. 
