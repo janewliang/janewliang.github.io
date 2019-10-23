@@ -11,7 +11,7 @@ Matrix linear models are a flexible and computationally efficient framework for 
 
 ---
 
-<h3><div id="genetic"><a href="#genetic">Matrix linear models for genetic screens</a></div></h3>
+<h3><div id="genetic"><a href="#genetic" style="color:inherit">Matrix linear models for genetic screens</a></div></h3>
 
 We develop a matrix linear model framework that allows us to model relationships between mutants and conditions in a simple, yet flexible, multivariate framework. It encodes both categorical and continuous relationships to enhance detection of associations. Our closed-form least squares estimates are fast because they take advantage of the structure of matrix linear models. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. Therefore, it is an attractive alternative to current methods, and provides a computationally scalable framework for larger and complex chemical genetic screens. 
 
@@ -23,7 +23,7 @@ We develop a matrix linear model framework that allows us to model relationships
 
 ---
 
-<h3><div id="sparse"><a href="#sparse">Sparse matrix linear models</a></div></h3>
+<h3><div id="sparse"><a href="#sparse" style="color:inherit">Sparse matrix linear models</a></div></h3>
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study [^fn5] and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses [^fn1]<sup>,</sup>[^fn3]. 
 
