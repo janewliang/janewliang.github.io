@@ -7,13 +7,19 @@ title: Matrix Linear Models
 
 *This page is currently under construction.*
 
-Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples include measuring gene transcription on a genome-wide scale using microarrays; the screening of genetic mutant libraries; screening for chemicals in human tissues using mass spectrometry; and subjecting cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies. We have developed closed-form least squares estimates applied to <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our methods are implemented in the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed.
+Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples of high-throughput data include: 
+- Measure gene transcription on a genome-wide scale using microarrays
+- Screen a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.
+- Subject various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.
+- Use mass spectrometry to detect levels of chemicals human tissues. 
+
+We have developed closed-form least squares estimates applied to high-throughput <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. We leverage matrix properties and the structure of the data, leading to our fast estimation methods. These methods are implemented in the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed.
 
 ---
 
 <h3><div id="genetic"><a href="#genetic" style="color:inherit">Matrix linear models for genetic screens</a></div></h3>
 
-We develop a matrix linear model framework that allows us to model relationships between mutants and conditions in a simple, yet flexible, multivariate framework. It encodes both categorical and continuous relationships to enhance detection of associations. Our closed-form least squares estimates are fast because they take advantage of the structure of matrix linear models. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. Therefore, it is an attractive alternative to current methods, and provides a computationally scalable framework for larger and complex chemical genetic screens. 
+We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. 
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. <a href="https://doi.org/10.1534/genetics.119.302299">doi.org/10.1534/genetics.119.302299</a></p>
 
