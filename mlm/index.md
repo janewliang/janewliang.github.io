@@ -8,12 +8,12 @@ title: Matrix Linear Models
 *This page is currently under construction.*
 
 Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples of high-throughput data include: 
-- Measure gene transcription on a genome-wide scale using microarrays
-- Screen a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.
-- Subject various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.
-- Use mass spectrometry to detect levels of chemicals human tissues. 
+    - Measuring gene transcription on a genome-wide scale using microarrays
+    - Screening a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.
+    - Subjecting various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.
+    - Using mass spectrometry to detect levels of chemicals human tissues. 
 
-We have developed closed-form least squares estimates applied to high-throughput <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. We leverage matrix properties and the structure of the data, leading to our fast estimation methods. These methods are implemented in the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed.
+We have developed closed-form least squares estimates applied to high-throughput <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed.
 
 ---
 
