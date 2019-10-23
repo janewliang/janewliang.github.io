@@ -15,7 +15,7 @@ Matrix linear models are a flexible and computationally efficient framework for 
 
 We develop a matrix linear model framework that allows us to model relationships between mutants and conditions in a simple, yet flexible, multivariate framework. It encodes both categorical and continuous relationships to enhance detection of associations. Our closed-form least squares estimates are fast because they take advantage of the structure of matrix linear models. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. Therefore, it is an attractive alternative to current methods, and provides a computationally scalable framework for larger and complex chemical genetic screens. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. <a href="https://doi.org/10.1534/genetics.119.302299">doi.org/10.1534/genetics.119.302299</a>.</p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. <a href="https://doi.org/10.1534/genetics.119.302299">doi.org/10.1534/genetics.119.302299</a></p>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
 [matrixLM.jl](https://github.com/janewliang/matrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.  
@@ -35,9 +35,9 @@ We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and co
 
 ---
 
-[^fn1]: <sup>Ågren, J., Oakley, C. G., McKay, J. K., Lovell, J. T., & Schemske, D. W. (2013). Genetic mapping of adaptation reveals fitness tradeoffs in Arabidopsis thaliana. *Proceedings of the National Academy of Sciences*, 110(52), 21077-21082.</sup>
+[^fn1]: <sup><sub>Ågren, J., Oakley, C. G., McKay, J. K., Lovell, J. T., & Schemske, D. W. (2013). Genetic mapping of adaptation reveals fitness tradeoffs in Arabidopsis thaliana. *Proceedings of the National Academy of Sciences*, 110(52), 21077-21082.</sub>Å</sup>
 
-[^fn2]: <sup>Collins, S. R., Schuldiner, M., Krogan, N. J., and Weissman, J. S. (2006). A strategy for extracting and analyzing large-scale quantitative epistatic interaction data. *Genome biology*, 7(7):R63.</sup>
+[^fn2]: <sub>Å<sup>Collins, S. R., Schuldiner, M., Krogan, N. J., and Weissman, J. S. (2006). A strategy for extracting and analyzing large-scale quantitative epistatic interaction data. *Genome biology*, 7(7):R63.</sup></sub>Å
 
 [^fn3]: <sup>Lowry, D. B., Logan, T. L., Santuari, L., Hardtke, C. S., Richards, J. H., DeRose-Wilson, L. J., ... & Juenger, T. E. (2013). Expression quantitative trait locus mapping across water availability environments reveals contrasting associations with genomic features in Arabidopsis. *The Plant Cell*, 25(9), 3266-3279.</sup>
 
