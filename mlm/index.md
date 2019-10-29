@@ -8,7 +8,7 @@ title: Matrix Linear Models
 *This page is currently under construction.*
 
 Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples of high-throughput data include: 
-<ul style="margin:-20px;">
+<ul style="margin:-10px;">
 <li>Measuring gene transcription on a genome-wide scale using microarrays.</li>
 <li>Screening a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.</li>
 <li>Subjecting various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.</li>
