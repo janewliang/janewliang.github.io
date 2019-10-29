@@ -5,8 +5,6 @@ title: Matrix Linear Models
 
 <h2><a href="{{ page.url }}" style="color:inherit">{{ page.title }}</a></h2>
 
-*This page is currently under construction.*
-
 Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples of high-throughput data include: 
 <ul style="margin-bottom:0; margin-top:-10px">
 <li>Measuring gene transcription on a genome-wide scale using microarrays.</li>
@@ -25,6 +23,8 @@ Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed 
 
 We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. 
 
+Objective function: &#189; || *Y* - *X B Z*' ||<sup>2</sup><sub>2</sub>
+
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. doi: <a href="https://doi.org/10.1534/genetics.119.302299">10.1534/genetics.119.302299</a></p>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
@@ -36,6 +36,8 @@ We develop closed-form least squares estimates and demonstrate their ability to 
 <h3><div id="sparse"><a href="#sparse" style="color:inherit">Sparse matrix linear models</a></div></h3>
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study [^fn5] and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses [^fn1]<sup>,</sup>[^fn3]. 
+
+Objective function: &#189; || *Y* - *X B Z*' ||<sup>2</sup><sub>2</sub> + &#411; || *B* ||<sub>1</sub>
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2019). Sparse matrix linear models for structured high-throughput data. <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767v1[stat.CO]</a></p>
 
