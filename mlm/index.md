@@ -8,12 +8,17 @@ title: Matrix Linear Models
 *This page is currently under construction.*
 
 Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples of high-throughput data include: 
-* Measuring gene transcription on a genome-wide scale using microarrays
-* Screening a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.
-* Subjecting various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.
-* Using mass spectrometry to detect levels of chemicals human tissues. 
+<ul><li>
+Measuring gene transcription on a genome-wide scale using microarrays. </li><li>
+Screening a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size. </li><li>
+Subjecting various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies. </li><li>
+Using mass spectrometry to detect levels of chemicals human tissues. </li>
+</ul>
 
-We have developed closed-form least squares estimates applied to high-throughput <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed.
+<center><img src="{{ site.url }}/media/mlm_diagram.png" width="320" height="240" title="Visualization of matrix linear models."/></center>
+<br>
+
+Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed closed-form least squares estimates applied to high-throughput <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed. 
 
 ---
 
@@ -21,7 +26,7 @@ We have developed closed-form least squares estimates applied to high-throughput
 
 We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. <a href="https://doi.org/10.1534/genetics.119.302299">doi.org/10.1534/genetics.119.302299</a></p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. doi: <a href="https://doi.org/10.1534/genetics.119.302299">10.1534/genetics.119.302299</a></p>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
 [matrixLM.jl](https://github.com/janewliang/matrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.  
