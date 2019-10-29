@@ -23,7 +23,7 @@ Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed 
 
 We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. 
 
-Objective function: &#189; &#8214;&#8214; *Y* - *X B Z*' &#8214;&#8214;<sup>2</sup><sub>2</sub>
+Objective function: &#189; &vert;&vert; *Y* - *X B Z*' &vert;&vert;<sub>2</sub><sup>2</sup>
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. doi: <a href="https://doi.org/10.1534/genetics.119.302299">10.1534/genetics.119.302299</a></p>
 
@@ -37,7 +37,7 @@ Objective function: &#189; &#8214;&#8214; *Y* - *X B Z*' &#8214;&#8214;<sup>2</s
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study [^fn5] and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses [^fn1]<sup>,</sup>[^fn3]. 
 
-Objective function: &#189; &#8214;&#8214; *Y* - *X B Z*' &#8214;&#8214;<sup>2</sup><sub>2</sub> + &#411; &#8214;&#8214; *B* &#8214;&#8214;<sub>1</sub>
+Objective function: &#189; &vert;&vert; *Y* - *X B Z*' &vert;&vert;<sub>2</sub><sup>2</sup> + &#411; &vert;&vert; *B* &vert;&vert;<sub>1</sub>
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2019). Sparse matrix linear models for structured high-throughput data. <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767v1[stat.CO]</a></p>
 
