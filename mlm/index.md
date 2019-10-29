@@ -15,7 +15,7 @@ Matrix linear models are a flexible and computationally efficient framework for 
 
 <center><img src="{{ site.url }}/media/mlm_diagram.png" width="384" height="288" title="Visualization of matrix linear models."/></center>
 
-Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed closed-form least squares estimates for the interactions *B* applied to <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed. 
+Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed closed-form least squares estimates applied to <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a> for estimating the interactions *B*. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed. 
 
 ---
 
