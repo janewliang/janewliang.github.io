@@ -19,8 +19,8 @@ Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed 
 
 ---
 
-<details><nobr>
-	<summary><h3><div id="genetic">Matrix linear models for genetic screens</div></h3></summary></nobr>
+<details>
+	<summary><h3><div id="genetic">Matrix linear models for genetic screens</div></h3></summary>
 
 We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories.</br>
 
@@ -50,7 +50,7 @@ We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and co
 ---
 
 <details>
-  <summary><h3><div id="references"><a href="#references" style="color:inherit">References</a></div></h3></summary>
+  <summary><h3><div id="references">References</div></h3></summary>
 
 [^fn1]: <sup>Ågren, J., Oakley, C. G., McKay, J. K., Lovell, J. T., & Schemske, D. W. (2013). Genetic mapping of adaptation reveals fitness tradeoffs in Arabidopsis thaliana. *Proceedings of the National Academy of Sciences*, 110(52), 21077-21082.</sup>
 
