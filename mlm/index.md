@@ -13,17 +13,22 @@ Matrix linear models are a flexible and computationally efficient framework for 
 <li>Using mass spectrometry to detect levels of chemicals human tissues.</li>
 </ul>
 
-<center><img src="{{ site.url }}/media/mlm_diagram.png" width="384" height="288" title="Visualization of matrix linear models."/></center>
+<details>
+  <summary><center><img src="{{ site.url }}/media/mlm_diagram.png" width="384" height="288" title="Visualization of matrix linear models."/></center></summary>
+</details>
 
 Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed closed-form least squares estimates for the interactions *B* applied to <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed. 
 
 ---
 
-<h3><div id="genetic"><a href="#genetic" style="color:inherit">Matrix linear models for genetic screens</a></div></h3>
+<details>
+  <summary><h3><div id="genetic"><a href="#genetic" style="color:inherit">Matrix linear models for genetic screens</a></div></h3></summary>
 
 We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. 
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. doi: <a href="https://doi.org/10.1534/genetics.119.302299">10.1534/genetics.119.302299</a></p>
+
+</details>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
 [matrixLM.jl](https://github.com/janewliang/matrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.  
@@ -31,9 +36,12 @@ We develop closed-form least squares estimates and demonstrate their ability to 
 
 ---
 
-<h3><div id="sparse"><a href="#sparse" style="color:inherit">Sparse matrix linear models</a></div></h3>
+<details>
+  <summary><h3><div id="sparse"><a href="#sparse" style="color:inherit">Sparse matrix linear models</a></div></h3></summary>
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study [^fn5] and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses [^fn1]<sup>,</sup>[^fn3]. 
+
+</details>
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2019). Sparse matrix linear models for structured high-throughput data. <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767v1[stat.CO]</a></p>
 
@@ -42,6 +50,9 @@ We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and co
 [Lightning talk](https://www.youtube.com/watch?v=LbWMmxMiZFQ): Video recording of a talk I gave at [JuliaCon 2017](https://juliacon.org/2017/) in Berkeley, CA.  
 
 ---
+
+<details>
+  <summary><h3><div id="references"><a href="#references" style="color:inherit">References</a></div></h3></summary>
 
 [^fn1]: <sup>Ågren, J., Oakley, C. G., McKay, J. K., Lovell, J. T., & Schemske, D. W. (2013). Genetic mapping of adaptation reveals fitness tradeoffs in Arabidopsis thaliana. *Proceedings of the National Academy of Sciences*, 110(52), 21077-21082.</sup>
 
@@ -52,3 +63,5 @@ We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and co
 [^fn4]: <sup>Nichols, R. J., Sen, S., Choo, Y. J., Beltrao, P., Zietek, M., Chaba, R., Lee, S., Kazmierczak, K. M., Lee, K. J., Wong, A., et al. (2011). Phenotypic landscape of a bacterial cell. *Cell*, 144(1):143–156.</sup>
 
 [^fn5]: <sup>Woodruff, T. J., Zota, A. R., & Schwartz, J. M. (2011). Environmental chemicals in pregnant women in the United States: NHANES 2003–2004. *Environmental health perspectives*, 119(6), 878-885.</sup>
+
+</details>
