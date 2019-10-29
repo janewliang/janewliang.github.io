@@ -8,14 +8,14 @@ title: Matrix Linear Models
 *This page is currently under construction.*
 
 Matrix linear models are a flexible and computationally efficient framework for detecting associations in structured high-throughput data. Examples of high-throughput data include: 
-<ul>
+<ul style="margin:0;">
 <li>Measuring gene transcription on a genome-wide scale using microarrays.</li>
 <li>Screening a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.</li>
 <li>Subjecting various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.</li>
 <li>Using mass spectrometry to detect levels of chemicals human tissues.</li>
 </ul>
 
-<center><img src="{{ site.url }}/media/mlm_diagram.png" width="320" height="240" title="Visualization of matrix linear models."/></center>
+<center><img src="{{ site.url }}/media/mlm_diagram.png" width="384" height="288" title="Visualization of matrix linear models."/></center>
 
 Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed closed-form least squares estimates applied to high-throughput <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a>. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed. 
 
