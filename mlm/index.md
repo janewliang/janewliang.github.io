@@ -35,7 +35,7 @@ We develop closed-form least squares estimates and demonstrate their ability to 
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study [^fn5] and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses [^fn1]<sup>,</sup>[^fn3]. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2019). Sparse matrix linear models for structured high-throughput data. <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767v2 [stat.CO]</a></p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2019). Sparse matrix linear models for structured high-throughput data. <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767v3 [stat.CO]</a></p>
 
 [Supplemental code](https://bitbucket.org/jwliang/mlm_l1_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
 [matrixLMnet.jl](https://github.com/janewliang/matrixLMnet.jl): Julia package with core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.  
