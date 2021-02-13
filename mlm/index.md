@@ -23,11 +23,11 @@ Under the supervision of [&#346;aunak Sen](http://senresearch.org), I developed 
 
 We develop closed-form least squares estimates and demonstrate their ability to model relationships between mutants and conditions in genetic screening data. Matrix linear models can encode both categorical and continuous relationships to enhance detection of associations. We evaluate our method’s performance in simulations and in an *Escherichia coli* chemical genetic screen [^fn4], comparing it with an existing univariate approach based on modified t-tests [^fn2]. We show that matrix linear models perform slightly better than the univariate approach when mutants and conditions are classified in nonoverlapping categories, and substantially better when conditions can be ordered in dosage categories. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. doi: <a href="https://doi.org/10.1534/genetics.119.302299">10.1534/genetics.119.302299</a></p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Nichols, R. J., & Sen, Ś. (2019). Matrix linear models for high-throughput chemical genetic screens. <i>Genetics</i>, 212(4), 1063–1073. doi: <a href="https://doi.org/10.1534/genetics.119.302299">10.1534/genetics.119.302299</a>.</p>
 
-[Supplemental code](https://bitbucket.org/jwliang/mlm_gs_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
-[matrixLM.jl](https://github.com/janewliang/matrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.  
-[GeneticScreen.jl](https://github.com/janewliang/GeneticScreen.jl): Julia package that extends matrixLM.jl to provide pre- and post-processing for the analysis of high-throughput genetic screens using matrix linear models.  
+[Supplemental code](https://github.com/senresearch/mlm_gs_supplement): Julia and R code used to analyze the results and reproduce the figures in the paper.  
+[MatrixLM.jl](https://github.com/senresearch/MatrixLM.jl): Julia package with core functions to obtain closed-form least squares estimates for matrix linear models.  
+[GeneticScreens.jl](https://github.com/senresearch/GeneticScreens.jl): Julia package that extends matrixLM.jl to provide pre- and post-processing for the analysis of high-throughput genetic screens using matrix linear models.  
 
 ---
 
@@ -35,10 +35,10 @@ We develop closed-form least squares estimates and demonstrate their ability to 
 
 We induce sparsity in matrix linear models using an L<sub>1</sub> penalty and consider the case when the response matrix and the covariate matrices are large. Standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression problem, motivating our fast estimation algorithms (coordinate descent, FISTA, and ADMM) that utilize the structure of the model. Our method's performance was evaluated on simulated data based on an environmental screening study [^fn5] and two <i>Arabidopsis thaliana</i> genetic datasets with multivariate responses [^fn1]<sup>,</sup>[^fn3]. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2020). Sparse matrix linear models for structured high-throughput data. <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767v3 [stat.CO]</a></p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b> & Sen, Ś. (2020). Sparse matrix linear models for structured high-throughput data. arXiv preprint: <a href="https://arxiv.org/abs/1712.05767">arXiv:1712.05767 [stat.CO]</a>.</p>
 
-[Supplemental code](https://bitbucket.org/jwliang/mlm_l1_supplement/src/default/): Julia and R code used to analyze the results and reproduce the figures in the paper.  
-[matrixLMnet.jl](https://github.com/janewliang/matrixLMnet.jl): Julia package with core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.  
+[Supplemental code](https://github.com/senresearch/mlm_l1_supplement): Julia and R code used to analyze the results and reproduce the figures in the paper.  
+[MatrixLMnet.jl](https://github.com/senresearch/MatrixLMnet.jl): Julia package with core functions to obtain L<sub>1</sub>-penalized estimates for matrix linear models.  
 [Lightning talk](https://www.youtube.com/watch?v=LbWMmxMiZFQ): Video recording of a talk I gave at [JuliaCon 2017](https://juliacon.org/2017/) in Berkeley, CA.  
 
 ---
