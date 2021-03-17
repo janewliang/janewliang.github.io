@@ -13,7 +13,7 @@ Matrix linear models are a flexible and computationally efficient framework for 
 <li>Using mass spectrometry to detect levels of chemicals human tissues.</li>
 </ul>
 
-<center><img src="{{ site.url }}/media/mlm_diagram.png" style="max-width: 80%; height:auto" title="Visualization of matrix linear models."/></center>
+<center><img src="{{ site.url }}/media/mlm_diagram.png" style="max-width: 75%; height:auto" title="Visualization of matrix linear models."/></center>
 
 We developed closed-form least squares estimates applied to <a href="#genetic">genetic screening data</a> as well as <a href="#sparse">sparse algorithms</a> for estimating the interactions *B*. Our estimation methods are fast because we leverage matrix properties and the structure of the data. These methods are implemented in open-source code using the high-level programming language [Julia](https://julialang.org/), which combines ease of prototyping with computational speed. 
 
