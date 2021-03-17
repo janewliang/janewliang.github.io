@@ -14,9 +14,7 @@ Homework assignments:
 <li><a href="https://github.com/datasciencelabs/2020/tree/master/Homework/HW1">Homework 1</a> (web scraping and wrangling H1N1 influenza pandemic data from Wikipedia)</li>
 <li><a href="https://github.com/datasciencelabs/2020/tree/master/Homework/HW3">Homework 3</a> (interactively visualizing Gapminder data in an R Shiny app)</li>
 </ul>
-
 <br>
-
 Lab assignments: 
 <ul style="margin-bottom:0; margin-top:-10px">
 <li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_04">Lab 4:  ggplot2 and Visualization Principles</a> (improving COVID-19 data visualizations published by the Georgia Department of Public Health)</li>
