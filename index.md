@@ -3,6 +3,6 @@ layout: default
 title: Jane Liang
 ---
 
-<center><img src="{{ site.url }}/media/chicken.jpg" style="max-width: 80%; height:auto" title="I am the one on the right."/></center>
+<center><img src="{{ site.url }}/media/chicken.jpg" style="max-width: 70%; height:auto" title="I am the one on the right."/></center>
 <br>
 I am a fourth-year doctoral candidate at Harvard's Department of Biostatistics, where I primarily work on building multi-gene, multi-cancer risk prediction models. My interests also include machine learning, computational algorithms, and teaching data science. 
