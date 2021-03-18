@@ -19,8 +19,8 @@ Lab assignments:
 <ul style="margin-bottom:0; margin-top:-10px">
 <li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_04">Lab 4:  ggplot2 and Visualization Principles</a> (improving COVID-19 data visualizations published by the Georgia Department of Public Health)</li>
 <li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_05">Lab 5: Shiny Apps and Mapping</a> (building an R Shiny app and heatmap of arrests in the United States)</li>
-<li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_08">Lab 8: Machine Learning I</a> (machine learning terminology, logistic regression, and Naive Bayes)</li>
-<li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_09">Lab 9: Machine Learning II</a> (kNN, LDA, QDA, decision trees, bagging, and random forests)</li>
+<li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_08">Lab 8: Machine Learning I</a> (machine learning terminology, logistic regression, and Naive Bayes using breast cancer biopsy data)</li>
+<li><a href="https://github.com/datasciencelabs/2020/tree/master/Labs/Lab_09">Lab 9: Machine Learning II</a> (kNN, LDA, QDA, decision trees, bagging, and random forests using simulations, birthweight data, and gene expression data)</li>
 </ul>
 <br>
 Exams: 
