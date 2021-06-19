@@ -6,7 +6,6 @@ title: PanelPRO
 <h2><a href="{{ page.url }}" style="color:inherit">{{ page.title }}</a></h2>
 
 Risk evaluation to identify individuals who are at greater risk of cancer as a result of heritable pathogenic variants is a valuable component of personalized clinical management. Using principles of Mendelian genetics, Bayesian probability theory, and variant-specific knowledge, Mendelian models derive the probability of carrying a pathogenic variant and future cancer risk, based on family history. 
-
 <center><img src="{{ site.url }}/media/panelpro_flowchart.png" style="max-width: 75%; height:auto" title="Mendelian model flowchart"/></center>
 
 Existing Mendelian models have been widely adopted, but are generally limited to specific genes and syndromes. However, the rise of multi-gene panel germline testing has spurred the discovery of many new gene-cancer associations that are not currently accounted for in these models. We present PanelPRO, a flexible, efficient Mendelian risk prediction framework that incorporates an arbitrary number of genes and cancers, overcoming the computational challenges that arise because of the increased model complexity. Using simulations and a high-risk clinical cohort with germline panel testing data [^fn1], we evaluate model performance, validate the reverse-compatibility of our approach with existing Mendelian models, and illustrate its usage. 
