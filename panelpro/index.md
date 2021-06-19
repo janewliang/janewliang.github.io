@@ -15,11 +15,11 @@ A clinical validation of PanelPRO-24, a 24-gene and 11-cancer model, is in progr
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Idos, G., Hong, C., Gruber, S., Parmigiani, G., & Braun, D. (2021). PanelPRO: a general framework for multi-gene, multi-cancer Mendelian risk prediction models. In preparation.</p>
 
-<p style="margin-left: 20px; text-indent: -20px;">Lee, G.\*, <b>Liang, J. W.</b>\*, Zhang, Q., Huang, T., Choirat, C., Parmigiani, G., & Braun, D. (2020). PanelPRO: A R package for multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer. arXiv preprint: <a href="https://arxiv.org/abs/2010.13011">arXiv:2010.13011 [stat.AP]</a>.</p>
+<p style="margin-left: 20px; text-indent: -20px;">Lee, G.*, <b>Liang, J. W.</b>*, Zhang, Q., Huang, T., Choirat, C., Parmigiani, G., & Braun, D. (2020). PanelPRO: A R package for multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer. arXiv preprint: <a href="https://arxiv.org/abs/2010.13011">arXiv:2010.13011 [stat.AP]</a>.</p>
 
-[PanelPRO](https://projects.iq.harvard.edu/bayesmendel/panelpro): R package for running multi-gene, multi-cancer Mendelian risk prediction models. 
-[Supplemental code](https://github.com/janewliang/PanelRePROducible): R code used to analyze the results and reproduce the figures in Liang et al. (2021). 
-[PedUtils](https://github.com/bayesmendel/PedUtils): R code to run simulations and model evaluations used by the BayesMendel lab, compatible with the PanelPRO package. 
+[PanelPRO](https://projects.iq.harvard.edu/bayesmendel/panelpro): R package for running multi-gene, multi-cancer Mendelian risk prediction models.  
+[Supplemental code](https://github.com/janewliang/PanelRePROducible): R code used to analyze the results and reproduce the figures in Liang et al. (2021).  
+[PedUtils](https://github.com/bayesmendel/PedUtils): R code to run simulations and model evaluations used by the BayesMendel lab, compatible with the PanelPRO package.  
 
 \* indicates equal contributions
 
