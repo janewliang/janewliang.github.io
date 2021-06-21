@@ -9,7 +9,9 @@ Risk evaluation to identify individuals who are at greater risk of cancer as a r
 
 <center><img src="{{ site.url }}/media/panelpro_flowchart.png" style="max-width: 75%; height:auto; margin-bottom:0; margin-top:-10px" title="Mendelian model flowchart"/></center>
 
-Existing Mendelian models have been widely adopted, but are generally limited to specific genes and syndromes. However, the rise of multi-gene panel germline testing has spurred the discovery of many new gene-cancer associations that are not currently accounted for in these models. We present PanelPRO, a flexible, efficient Mendelian risk prediction framework that incorporates an arbitrary number of genes and cancers, overcoming the computational challenges that arise because of the increased model complexity. Using simulations and a high-risk clinical cohort with germline panel testing data [^fn1], we evaluate model performance, validate the reverse-compatibility of our approach with existing Mendelian models, and illustrate its usage. 
+Existing Mendelian models have been widely adopted, but are generally limited to specific genes and syndromes. However, the rise of multi-gene panel germline testing has spurred the discovery of many new gene-cancer associations that are not currently accounted for in these models. 
+
+We present PanelPRO, a flexible, efficient Mendelian risk prediction framework that incorporates an arbitrary number of genes and cancers, overcoming the computational challenges that arise because of the increased model complexity. Using simulations and a high-risk clinical cohort with germline panel testing data [^fn1], we evaluate model performance, validate the reverse-compatibility of our approach with existing Mendelian models, and illustrate its usage. 
 
 A clinical validation of PanelPRO-24, a 24-gene and 11-cancer model, is in progress. 
 
