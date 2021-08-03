@@ -7,4 +7,4 @@ title: Curriculum Vitae
 
 [Download CV as a PDF]({{ site.url }}/media/cv-online.pdf)
 
-*Updated June 20, 2021*
+*Updated August 3, 2021*
