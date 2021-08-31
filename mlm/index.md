@@ -10,7 +10,7 @@ Matrix linear models are a flexible and computationally efficient framework for 
 <li>Measuring gene transcription on a genome-wide scale using microarrays.</li>
 <li>Screening a genetic mutant library under different growth conditions to analyze the effects of gene-condition interactions on colony size.</li>
 <li>Subjecting various cancer cells to a range of treatment drugs in order to identify genetic features targeted by particular therapies.</li>
-<li>Using mass spectrometry to detect levels of chemicals human tissues.</li>
+<li>Using mass spectrometry to detect levels of chemicals in human tissues.</li>
 </ul>
 
 <center><img src="{{ site.url }}/media/mlm_diagram.png" style="max-width: 75%; height:auto" title="Visualization of matrix linear models"/></center>

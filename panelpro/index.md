@@ -15,7 +15,7 @@ We present PanelPRO, a flexible, efficient Mendelian risk prediction framework t
 
 A clinical validation of PanelPRO-24, a 24-gene and 18-cancer model, is in progress. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Idos, G. E., Hong, C., Gruber, S. B., Parmigiani, G., & Braun, D. (2021). PanelPRO: a general framework for multi-gene, multi-cancer Mendelian risk prediction models. In preparation.</p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Idos, G. E., Hong, C., Gruber, S. B., Parmigiani, G., & Braun, D. (2021). PanelPRO: a general framework for multi-gene, multi-cancer Mendelian risk prediction models. Submitted to <i>The Annals of Applied Statistics</i>. arXiv preprint: <a href="https://arxiv.org/abs/2108.12504">arXiv:2108.12504 [stat.ME]</a>.</p>
 
 <p style="margin-left: 20px; text-indent: -20px;">Lee, G.*, <b>Liang, J. W.</b>*, Zhang, Q., Huang, T., Choirat, C., Parmigiani, G., & Braun, D. (2021). Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO. To appear in <i>eLife</i>. doi: <a href="https://doi.org/10.7554/eLife.68699">10.7554/eLife.68699</a>.</p>
 
