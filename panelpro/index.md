@@ -17,11 +17,11 @@ A clinical validation of PanelPRO-24, a 24-gene and 18-cancer model, is in progr
 
 <p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Idos, G. E., Hong, C., Gruber, S. B., Parmigiani, G., & Braun, D. (2021). PanelPRO: a general framework for multi-gene, multi-cancer Mendelian risk prediction models. Submitted to <i>The Annals of Applied Statistics</i>. arXiv preprint: <a href="https://arxiv.org/abs/2108.12504">arXiv:2108.12504 [stat.ME]</a>.</p>
 
-<p style="margin-left: 20px; text-indent: -20px;">Lee, G.*, <b>Liang, J. W.</b>*, Zhang, Q., Huang, T., Choirat, C., Parmigiani, G., & Braun, D. (2021). Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO. To appear in <i>eLife</i>. doi: <a href="https://doi.org/10.7554/eLife.68699">10.7554/eLife.68699</a>.</p>
+<p style="margin-left: 20px; text-indent: -20px;">Lee, G.*, <b>Liang, J. W.</b>*, Zhang, Q., Huang, T., Choirat, C., Parmigiani, G., & Braun, D. (2021). Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO. <i>eLife</i>, 10, e68699. doi: <a href="https://doi.org/10.7554/eLife.68699">10.7554/eLife.68699</a>.</p>
 
 [PanelPRO](https://projects.iq.harvard.edu/bayesmendel/panelpro): R package for running multi-gene, multi-cancer Mendelian risk prediction models.  
 [Supplemental code](https://github.com/janewliang/PanelRePROducible): R code used to analyze the results and reproduce the figures in Liang et al. (2021).  
-[PedUtils](https://github.com/bayesmendel/PedUtils): R code to run simulations and model evaluations used by the BayesMendel lab, compatible with the PanelPRO package.  
+[Insight article](https://elifesciences.org/articles/73380) "Risk Modeling: Predicting cancer risk based on family history" written by Michelle F Jacobs on Lee et al. (2021). 
 
 \* indicates equal contributions
 
