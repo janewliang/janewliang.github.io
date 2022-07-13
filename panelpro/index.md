@@ -11,11 +11,11 @@ Risk evaluation to identify individuals who are at greater risk of cancer as a r
 
 Existing Mendelian models have been widely adopted, but are generally limited to specific genes and syndromes. However, the rise of multi-gene panel germline testing has spurred the discovery of many new gene-cancer associations that are not currently accounted for in these models. 
 
-We present PanelPRO, a flexible, efficient Mendelian risk prediction framework that incorporates an arbitrary number of genes and cancers, overcoming the computational challenges that arise because of the increased model complexity. Using simulations and a high-risk clinical cohort with germline panel testing data [^fn1], we evaluate model performance, validate the reverse-compatibility of our approach with existing Mendelian models, and illustrate its usage. 
+The [BayesMendel Lab](https://projects.iq.harvard.edu/bayesmendel) presents PanelPRO, a flexible, efficient Mendelian risk prediction framework that incorporates an arbitrary number of genes and cancers, overcoming the computational challenges that arise because of the increased model complexity. Using simulations and a high-risk clinical cohort with germline panel testing data [^fn1], we evaluate model performance, validate the reverse-compatibility of our approach with existing Mendelian models, and illustrate its usage. 
 
 A clinical validation of PanelPRO-22, a 22-gene and 17-cancer model, is in progress. 
 
-<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Idos, G. E., Hong, C., Gruber, S. B., Parmigiani, G., & Braun, D. (2022). PanelPRO: a general framework for multi-gene, multi-cancer Mendelian risk prediction models. Submitted to <i>Genetic Epidemiology</i>. arXiv preprint: <a href="https://arxiv.org/abs/2108.12504">arXiv:2108.12504 [stat.ME]</a>.</p>
+<p style="margin-left: 20px; text-indent: -20px;"><b>Liang, J. W.</b>, Idos, G. E., Hong, C., Gruber, S. B., Parmigiani, G., & Braun, D. (2022). Statistical methods for Mendelian models with multiple genes and cancers. <i>Genetic Epidemiology</i>. doi: <a href="https://doi.org/10.1002/gepi.22460">10.1002/gepi.22460</a>.</p>
 
 <p style="margin-left: 20px; text-indent: -20px;">Lee, G.*, <b>Liang, J. W.</b>*, Zhang, Q., Huang, T., Choirat, C., Parmigiani, G., & Braun, D. (2021). Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO. <i>eLife</i>, 10, e68699. doi: <a href="https://doi.org/10.7554/eLife.68699">10.7554/eLife.68699</a>.</p>
 
