@@ -9,7 +9,7 @@ I served as a TA for BST 260 (Introduction to Data Science) in [Fall 2019](https
 
 The course materials that I created for BST 260 are listed below. Each assignment is designed to mimic a realistic data analysis, with the questions building toward an overarching narrative. In addition to R coding exercises, many questions emphasize interpreting results or data science communication. Topics and data sets were chosen to be relevant to student interests and pressing public health challenges. 
 
-You can find the course website for the most recent iteration of BST 260 [here](https://datasciencelabs.github.io/). While serving as an HSPH pedagogy fellow, I also helped develop BST 219 (Core Principles of Data Science), a gentle data science course geared toward those with no prior quantitative/programming background offered for the first time in 2022. 
+You can find the course website for the most recent iteration of BST 260 [here](https://datasciencelabs.github.io/). While serving as an HSPH pedagogy fellow, I also helped develop BST 219 (Core Principles of Data Science), a gentle data science course geared toward those with no prior quantitative/programming background, offered for the first time in 2022. 
 
 
 Homework assignments: 
